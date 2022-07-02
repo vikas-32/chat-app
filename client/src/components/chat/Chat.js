@@ -14,7 +14,7 @@ const Chat =({ location })=>{
     const [users, setUsers] = useState('');
     const [messages, setmessages] = useState([]);
     const [message, setmessage] = useState('');
-    const endpoint =  'https://chat-app-react-node.herokuapp.com/';
+    const endpoint =  'https://chat-app-vkt.herokuapp.com/';
 
     useEffect(()=>{
         const {name, room} = QueryString.parse(location.search);
